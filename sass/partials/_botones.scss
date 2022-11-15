@@ -1,0 +1,142 @@
+.css-button-arrow--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d348b
+  }
+.css-button-arrow--blue:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+.css-button-arrow--blue:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+.css-button-arrow--blue:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  .css-button-sliding-to-top--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #2c0b8e;
+    color: #2c0b8e;
+}
+.css-button-sliding-to-top--blue:hover {
+    color: #fff;
+}
+.css-button-sliding-to-top--blue:hover:after {
+    height: 100%;
+}
+.css-button-sliding-to-top--blue:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #2c0b8e;
+}
+#form {
+  border:1px solid #990000;
+  width:450px;
+  margin:auto;
+}
+#form legend{
+  font-weight:bold;
+  font-size:12px;
+}
+#form ol{
+  list-style:none;
+}
+#form ol li{
+  padding-bottom:5px;
+}
+#form ol li label{
+  width:120px;
+  float:left;
+  text-align:left;
+}
+#form input[type=text] {
+  border:1px solid #CCCCCC;
+}
+#form input.btn {
+  padding:3px;
+  color:#FFFFFF;
+  background-color:#990000;
+  border:1px solid #000000;
+}
+.pruductos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+.css-button-sliding-to-bottom--black {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #212529;
+  color: #212529;
+}
+.css-button-sliding-to-bottom--black:hover {
+  color: #fff;
+}
+.css-button-sliding-to-bottom--black:hover:after {
+  height: 100%;
+}
+.css-button-sliding-to-bottom--black:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #212529;
+}
